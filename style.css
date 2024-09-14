@@ -1,0 +1,130 @@
+h1{
+    text-shadow: 3px 3px 5px gray;
+}
+#area{
+    position: static;
+            text-align: center;
+    
+    
+}
+#area #formulario{
+    
+    position: relative;
+    display:block;
+    position: relative;
+    
+}
+.fieldset{
+    font-size: 25px;
+    text-shadow: 2px 2px 5px white;
+    box-shadow: 6px 6px 8px rgb(39, 37, 37);
+    background-image: linear-gradient(#7f8c8d, #7f8c8d, #bdc3c7);
+    width: 300px;
+    position: relative;
+    left: 30%; right: 10%;
+       
+    cursor:context-menu;
+    border: 3px solid gray;
+    border-radius: 12px;
+    
+    
+    
+}
+.campoemail{
+    background-color: white;
+    position: static;
+    margin: 0px 0;
+    border: 3px solid gray;
+    border-radius: 9px;
+    text-align: center;
+    width: 180px;
+    height: 25px;
+    margin: 0px 0;
+}
+.campoemail:hover{
+    background-color: rgb(228, 228, 228);
+    position: static;
+    border: 3px solid gray;
+    border-radius: 9px;
+    
+}
+.camposenha{
+    background-color: white;
+    position: static;
+    width: auto;
+    border: 3px solid gray;
+    border-radius: 9px;
+    text-align: center;
+    width: 180px;
+    height: 25px;
+    
+    
+}
+.camposenha:hover{
+    background-color: rgb(228, 228, 228);
+    position: static;
+    border: 3px solid black;
+    border-radius: 9px;
+    
+}
+.botao{
+    background-color: white;
+    position: relative;
+    border: 3px solid gray;
+    border-radius: 9px;
+    left: 150px;
+    
+    font-size: 25px;
+    text-shadow: 2px 2px 4px gray;
+    
+}
+.email{
+        position: static;
+    text-align: center;
+    font-size: 25px;
+    
+}
+.senha{
+        position: static;
+    text-align: center;
+    font-size: 25px;
+    
+}
+.login{
+    position: static;
+    text-align: center;
+    font-size: large;
+    font-style: italic;
+    font-size: 25px;
+    
+}
+.botao:hover{
+    background-color: rgb(228, 228, 228);
+    border: 3px solid gray;
+    border-radius: 9px;
+    border-style: dashed;
+    bottom: 0.5em;
+    right: 10px;
+    
+    
+}
+.corpo{
+    background: #57606f;
+}
+.botao1{
+    background-color: white;
+    position:relative;
+    border: 3px solid gray;
+    border-radius: 9px;
+    right: 120px;
+    font-size: 25px;
+    text-shadow: 2px 2px 4px gray;
+}
+.botao1:hover{
+    
+    background-color: rgb(228, 228, 228);
+    border: 3px solid gray;
+    border-radius: 9px;
+    border-style: dashed;
+    bottom: 0.5em;
+    }
