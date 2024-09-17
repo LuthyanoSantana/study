@@ -1,5 +1,20 @@
-h1{
-    text-shadow: 3px 3px 5px gray;
+.tabela{
+    background: gray;
+    text-decoration: none;
+    color: white;
+    box-shadow: 5px 5px 12px black;
+    border: 1px solid white;
+    margin-top: 0%;
+    margin-left: 0%;
+    width: 100%;
+    height: 30px;
+    position: relative;
+    text-shadow: 2px 2px 5px black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding: 15px 12px 15px 12px;
+    bottom: -20px;
+    top: auto;
+
 }
 #area{
     position: static;
@@ -109,7 +124,7 @@ h1{
     
 }
 .corpo{
-    background: #57606f;
+    background: #41629a;
 }
 .botao1{
     background-color: white;
@@ -128,3 +143,4 @@ h1{
     border-style: dashed;
     bottom: 0.5em;
     }
+    
