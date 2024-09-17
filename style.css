@@ -14,11 +14,13 @@
     padding: 15px 12px 15px 12px;
     bottom: -20px;
     top: auto;
+    position: sticky;
+    top: 0%;
 
 }
 #area{
-    position: static;
-            text-align: center;
+    position: relative;
+                text-align: center;
     
     
 }
@@ -143,4 +145,39 @@
     border-style: dashed;
     bottom: 0.5em;
     }
-    
+    /* Smartphones (600px para baixo) */
+@media only screen and (max-width: 600px) {
+    #area #formulario{
+        height: 40px;
+        width: 50x;
+        }
+        
+}
+
+/* Dispositivos um pouco maiores, mas ainda pequenos (Pequenos Tablets e Smartphones + largos, 600px para cima) */
+@media only screen and (min-width: 600px) { #area #formulario{
+    height: 40px;
+    width: 50x;
+    }
+}
+
+/*Dispostivos Médios (Tablets deitados, 768px para cima) */
+@media only screen and (min-width: 768px) { #area #formulario{
+    height: 60px;
+    width: 70x;
+    }
+}
+
+/* Dispostivos Largos (laptops/desktops, 992px para cima) */
+@media only screen and (min-width: 992px) { #area #formulario{
+    height: 100px;
+    width: 120x;
+    }
+}
+
+/* Super Largos (Telas maiores laptops, desktops e até TVs, 1200px para cima) */
+@media only screen and (min-width: 1200px) { #area #formulario{
+    height: 300;
+    width: 350x;
+    }
+}
