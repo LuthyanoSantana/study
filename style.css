@@ -1,53 +1,66 @@
-.tabela{
+.menu{
+    background: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+}
+.tabela {
+    text-align: center;
     background: gray;
     text-decoration: none;
     color: white;
-    box-shadow: 5px 5px 12px black;
+    box-shadow: 5px 5px 12px rgb(114, 100, 100);
     border: 1px solid white;
-    margin-top: 0%;
-    margin-left: 0%;
-    width: 100%;
-    height: 30px;
-    position: relative;
+        width: 130px;
+    height: auto;
+    margin: 4px;
     text-shadow: 2px 2px 5px black;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    padding: 15px 12px 15px 12px;
-    bottom: -20px;
-    top: auto;
-    position: sticky;
-    top: 0%;
+    padding: 2px 30px 5px 9px; 
 
 }
-#area{
+
+#area {
     position: relative;
-                text-align: center;
-    
-    
+    text-align: center;
+
+
 }
-#area #formulario{
-    
+
+#area #formulario {
+
     position: relative;
-    display:block;
+    display: block;
     position: relative;
-    
+
 }
-.fieldset{
+
+.fieldset {
     font-size: 25px;
     text-shadow: 2px 2px 5px white;
     box-shadow: 6px 6px 8px rgb(39, 37, 37);
     background-image: linear-gradient(#7f8c8d, #7f8c8d, #bdc3c7);
     width: 300px;
-    position: relative;
-    left: 30%; right: 10%;
-       
-    cursor:context-menu;
+    display: flex;
+    flex-direction:column;
+    flex-wrap: nowrap;
+    flex-grow: 1;
+    justify-content: center;
+    align-items:center;
+    cursor: context-menu;
     border: 3px solid gray;
     border-radius: 12px;
-    
-    
-    
+
+
+
 }
-.campoemail{
+
+.campoemail {
     background-color: white;
     position: static;
     margin: 0px 0;
@@ -58,14 +71,16 @@
     height: 25px;
     margin: 0px 0;
 }
-.campoemail:hover{
+
+.campoemail:hover {
     background-color: rgb(228, 228, 228);
     position: static;
     border: 3px solid gray;
     border-radius: 9px;
-    
+
 }
-.camposenha{
+
+.camposenha {
     background-color: white;
     position: static;
     width: auto;
@@ -74,110 +89,133 @@
     text-align: center;
     width: 180px;
     height: 25px;
-    
-    
+
+
 }
-.camposenha:hover{
+
+.camposenha:hover {
     background-color: rgb(228, 228, 228);
     position: static;
     border: 3px solid black;
     border-radius: 9px;
-    
+
 }
-.botao{
+
+.botao {
     background-color: white;
     position: relative;
     border: 3px solid gray;
     border-radius: 9px;
     left: 150px;
-    
+
     font-size: 25px;
     text-shadow: 2px 2px 4px gray;
-    
+
 }
-.email{
-        position: static;
+
+.email {
+    position: static;
     text-align: center;
     font-size: 25px;
-    
+
 }
-.senha{
-        position: static;
+
+.senha {
+    position: static;
     text-align: center;
     font-size: 25px;
-    
+
 }
-.login{
+
+.login {
     position: static;
     text-align: center;
     font-size: large;
     font-style: italic;
     font-size: 25px;
-    
+
 }
-.botao:hover{
+
+.botao:hover {
     background-color: rgb(228, 228, 228);
     border: 3px solid gray;
     border-radius: 9px;
     border-style: dashed;
     bottom: 0.5em;
     right: 10px;
-    
-    
+
+
 }
-.corpo{
-    background: #41629a;
-}
-.botao1{
+
+.botao1 {
     background-color: white;
-    position:relative;
+    position: relative;
     border: 3px solid gray;
     border-radius: 9px;
     right: 120px;
     font-size: 25px;
     text-shadow: 2px 2px 4px gray;
 }
-.botao1:hover{
-    
+
+.botao1:hover {
+
     background-color: rgb(228, 228, 228);
     border: 3px solid gray;
     border-radius: 9px;
     border-style: dashed;
     bottom: 0.5em;
-    }
-    /* Smartphones (600px para baixo) */
+}
+
+/* Smartphones (600px para baixo) */
 @media only screen and (max-width: 600px) {
-    #area #formulario{
+    #area #formulario {
         height: 40px;
         width: 50x;
-        }
-        
+    }
+
 }
 
 /* Dispositivos um pouco maiores, mas ainda pequenos (Pequenos Tablets e Smartphones + largos, 600px para cima) */
-@media only screen and (min-width: 600px) { #area #formulario{
-    height: 40px;
-    width: 50x;
+@media only screen and (min-width: 600px) {
+    #area #formulario {
+        height: 40px;
+        width: 50x;
     }
 }
 
 /*Dispostivos Médios (Tablets deitados, 768px para cima) */
-@media only screen and (min-width: 768px) { #area #formulario{
-    height: 60px;
-    width: 70x;
+@media only screen and (min-width: 768px) {
+    #area #formulario {
+        height: 60px;
+        width: 70x;
     }
 }
 
 /* Dispostivos Largos (laptops/desktops, 992px para cima) */
-@media only screen and (min-width: 992px) { #area #formulario{
-    height: 100px;
-    width: 120x;
+@media only screen and (min-width: 992px) {
+    #area #formulario {
+        height: 100px;
+        width: 120x;
     }
 }
 
 /* Super Largos (Telas maiores laptops, desktops e até TVs, 1200px para cima) */
-@media only screen and (min-width: 1200px) { #area #formulario{
-    height: 300;
-    width: 350x;
+@media only screen and (min-width: 1200px) {
+    #area #formulario {
+        height: 300;
+        width: 350x;
     }
+}
+
+.foto {
+    box-shadow: 5px 5px 30px gray;
+    width: 130px;
+    height: 90px;
+    position: static;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border: 2px solid white;
+    border-radius: 8px;
+    margin-top: 10px;
+    margin-left: 12px;
+
 }
