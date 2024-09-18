@@ -9,6 +9,7 @@
     width: 100%;
     height: auto;
 }
+
 .tabela {
     text-align: center;
     background: gray;
@@ -20,6 +21,21 @@
     height: auto;
     margin: 4px;
     text-shadow: 2px 2px 5px black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding: 2px 30px 5px 9px; 
+
+}
+.tabela:hover {
+    text-align: center;
+    background: black;
+    text-decoration: none;
+    color: white;
+    box-shadow: 5px 5px 12px rgb(114, 100, 100);
+    border: 1px solid white;
+        width: 130px;
+    height: auto;
+    margin: 4px;
+    text-shadow: 2px 2px 5px gray;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     padding: 2px 30px 5px 9px; 
 
@@ -188,6 +204,9 @@
     #area #formulario {
         height: 40px;
         width: 50x;
+    }
+    .tabela{
+        flex-direction: column;
     }
 }
 
